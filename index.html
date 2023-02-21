@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="breakcup_cafe_logo.jpg" alt="" width="150" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbar-light" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/cafe_menu.html">Cafe Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/gallary.html">Gallary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact_us.html">Contact Us</a>
+                    </li>
+
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <div class="col-auto d-lg-block">
+                        <img class="bd-placeholder-img" width="40" height="40" src="google_map_logo.png" alt="">
+                    </div>
+                    <a href="https://goo.gl/maps/SEWofcKFPkmc9Tk19" class="btn btn-primary" target="_blank"
+                        rel="noopener noreferrer">Find Us on MAP</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-4">
+        <div class="alert alert-info" role="alert">
+            <h5>Welcome you to BreakCup Cafe.</h5>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="d-flex justify-content-between align-items-center breaking-news bg-light text-danger ">
+                    <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();"
+                        onmouseout="this.start();">
+                        <h4>We are now reopened with big ambience and large menu. PIZZA starting from just Rs.120/-
+                            ONLY. BURGER starting from just Rs.60/- ONLY. Cold coffe Only at Rs.30. Sandwich starting
+                            from just Rs.50/- ONLY.</h4>
+                    </marquee>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="pizza1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h2>PIZZA</h2>
+                        <p>Starting from just Rs.120/- ONLY</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="burger1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>BURGER AND FRIES</h2>
+                        <p>Starting from just Rs.60/- ONLY</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="coffee1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>COFFEE</h2>
+                        <p>Cold coffe Only at Rs.30</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="sandwich1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Sandwich</h2>
+                        <p>Starting from just Rs.50/- ONLY</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">PIZZA</strong>
+                        <div class="mb-1 text-muted">Margherita</div>
+                        <div class="mb-1 text-muted">Veg Crispy</div>
+                        <div class="mb-1 text-muted">Tandoori Veg</div>
+                        <div class="mb-1 text-muted">Veggie Paneer</div>
+                        <div class="mb-1 text-muted">And MORE...</div>
+                    </div>
+
+                    <div class="col-auto d-lg-block">
+                        <img src="pizza2.jpg" class="rounded float-start img-fluid" width="150" height="200" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success">BURGER</strong>
+                        <div class="mb-1 text-muted">Aloo Tikki</div>
+                        <div class="mb-1 text-muted">Veg Tikki</div>
+                        <div class="mb-1 text-muted">Tandoori Veg</div>
+                        <div class="mb-1 text-muted">Paneer Crispy</div>
+                        <div class="mb-1 text-muted">And MORE...</div>
+                    </div>
+                    <div class="col-auto d-lg-block">
+                        <img src="burger2.jpg" class="rounded float-start img-fluid" width="150" height="200" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container my-4">
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">SANDWICH</strong>
+                        <div class="mb-1 text-muted">Plain Cheese</div>
+                        <div class="mb-1 text-muted">Creamy Corn</div>
+                        <div class="mb-1 text-muted">Classic Veg</div>
+                        <div class="mb-1 text-muted">Spicy Paneer Grill</div>
+                        <div class="mb-1 text-muted">And MORE...</div>
+                    </div>
+                    <div class="col-auto d-lg-block">
+                        <img src="sandwich2.jpg" class="rounded float-start img-fluid" width="150" height="200"
+                            alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success">COFFEE</strong>
+                        <div class="mb-1 text-muted">Cold Coffee</div>
+                        <div class="mb-1 text-muted">Hot Coffee</div>
+                        <div class="mb-1 text-muted">Black Coffee</div>
+                        <div class="mb-1 text-muted">Chocolate Cold Coffee</div>
+                        <div class="mb-1 text-muted">And MORE...</div>
+                    </div>
+                    <div class="col-auto d-lg-block">
+                        <img src="coffee2.jpg" class="rounded float-start img-fluid" width="150" height="200" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="containe my-4">
+        <div class="row">
+            <div class="col-md-2">
+                <img class="bd-placeholder-img rounded-circle mx-auto d-block" class="img-fluid" width="140"
+                    height="140" src="fries.jpg" alt="">
+                <h2 class="fw-normal text-center">Fries</h2>
+            </div><!-- /.col-md-2 -->
+            <div class="col-md-2">
+                <img class="bd-placeholder-img rounded-circle mx-auto d-block" width="140" height="140"
+                    src="mocktail.jpg" alt="">
+                <h2 class="fw-normal text-center">Mocktails</h2>
+            </div><!-- /.col-md-2 -->
+            <div class="col-md-2">
+                <img class="bd-placeholder-img rounded-circle mx-auto d-block" width="140" height="140"
+                    src="blacktea.jpg" alt="">
+                <h2 class="fw-normal text-center">Black Tea</h2>
+            </div><!-- /.col-md-2 -->
+            <div class="col-md-2">
+                <img class="bd-placeholder-img rounded-circle mx-auto d-block" width="140" height="140"
+                    src="icecream.jpg" alt="">
+                <h2 class="fw-normal text-center">IceCream</h2>
+            </div><!-- /.col-md-2 -->
+            <div class="col-md-2">
+                <img class="bd-placeholder-img rounded-circle mx-auto d-block" width="140" height="140" src="maggi.jpg"
+                    alt="">
+                <h2 class="fw-normal text-center">Maggi</h2>
+            </div><!-- /.col-md-2 -->
+            <div class="col-md-2">
+                <img class="bd-placeholder-img rounded-circle mx-auto d-block" width="140" height="140"
+                    src="milkshake.jpg" alt="">
+                <h2 class="fw-normal text-center">Milkshake</h2>
+            </div><!-- /.col-md-2 -->
+        </div>
+    </div>
+    <div class="container my-4">
+
+        <section>
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-10 col-xl-8 text-center">
+                    <h3 class="mb-4">Testimonials</h3>
+                    <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-4 mb-5 mb-md-0">
+
+                    <h5 class="mb-3">Ambarish M</h5>
+                    <h6 class="text-primary mb-3">Hadapsar, Pune</h6>
+                    <p class="px-xl-3">
+                        <i class="fas fa-quote-left pe-2"></i>"In my view the most well organized cafe in Fursungi area,
+                        their food is good, serving, proportion is decent, hygeine is well maintained. Price is
+                        resonable. Both brothers are polite and well behaved. Coffee, burger ,pizza, fries are some of
+                        the best items. If you are in Fursungi or nearby area and want to have a small hangout with
+                        family and friends , definitely worth trying this cafe"
+                    </p>
+                    <ul class="list-unstyled d-flex justify-content-center mb-0">
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-star-half-alt fa-sm text-warning"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-5 mb-md-0">
+                    <h5 class="mb-3"> Nihal W</h5>
+                    <h6 class="text-primary mb-3">Aundh, Pune</h6>
+                    <p class="px-xl-3">
+                        <i class="fas fa-quote-left pe-2"></i>"I just had a buffet here. The food was simply amazing,
+                        but more importantly what really impressed us was Burger . He knew what he was recommending, he
+                        was confident and so surprisingly refreshing. A must go to place as per me. The plate in the
+                        photo speaks volumes"
+                    </p>
+                    <ul class="list-unstyled d-flex justify-content-center mb-0">
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-0">
+                    <h5 class="mb-3">Jagdish B</h5>
+                    <h6 class="text-primary mb-3">Satara, MH</h6>
+                    <p class="px-xl-3">
+                        <i class="fas fa-quote-left pe-2"></i>"Ordered Cheese chilli toast/Chesse fries, It was yummy
+                        and juicy. Everyone must try visiting this cafe."
+                    </p>
+                    <ul class="list-unstyled d-flex justify-content-center mb-0">
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="far fa-star fa-sm text-warning"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div data-field="address"><a class="PDvGL q8cvFf"
+                href="https://search.google.com/local/writereview?placeid=ChIJ1-ZOEeDpwjsRKWt5WdgemFw" target="_blank"
+                data-tracking-element-type="6" jslog="56039; track:impression,click">Write a Review</a>
+        </div>
+        <div data-field="address"><a class="PDvGL q8cvFf"
+                href="https://search.google.com/local/reviews?placeid=ChIJ1-ZOEeDpwjsRKWt5WdgemFw" target="_blank"
+                data-tracking-element-type="6" jslog="56039; track:impression,click">Read
+                More</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row fGZQDc">
+            <div class="col-md-3 mb-5 mb-md-0 kCmrbf">
+                <h3 class="Gou21b">Contact</h3>
+
+                <div data-field="phone"><a class="PDvGL q8cvFf" href="tel:+91-95611-61989"
+                        data-tracking-element-type="3" jslog="56037; track:impression,click" itemprop="telephone"
+                        dir="ltr">Call now</a>
+                    <ul class="R7Di0e">
+                        <li dir="ltr">095611 61989</li>
+                        <li dir="ltr">082375 37443</li>
+                    </ul>
+                </div>
+            </div><!-- /.col-md-3 -->
+            <div class="col-md-3 mb-5 mb-md-0 kCmrbf">
+                <h3 class="Gou21b">Order Now</h3>
+                <div class="col-auto d-lg-block">
+                    <img class="bd-placeholder-img" width="30" height="30" src="whats_App.jpeg" alt="">
+                    <a class="PDvGL q8cvFf" target="_blank" data-tracking-element-type="6"
+                        jslog="56039; track:impression,click">09561161989</a>
+                </div>
+                <div class="col-auto  d-lg-block my-2">
+                    <img class="bd-placeholder-img" width="30" height="30" src="instragram.jpeg" alt="">
+                    <a class="PDvGL q8cvFf" href="https://www.instagram.com/breakcup_cafe/?igshid=Yzg5MTU1MDY%3D"
+                        target="_blank" data-tracking-element-type="6"
+                        jslog="56039; track:impression,click">Instragram</a>
+                </div>
+                <div class="col-auto d-lg-block">
+                    <img class="bd-placeholder-img" width="30" height="30" src="facebook.jpeg" alt="">
+                    <a class="PDvGL q8cvFf" href="https://www.facebook.com/profile.php?id=100083280464278"
+                        target="_blank" data-tracking-element-type="6"
+                        jslog="56039; track:impression,click">Facebook</a>
+                </div>
+
+            </div><!-- /.col-md-3 -->
+            <div class="col-md-3 mb-5 mb-md-0 kCmrbf">
+                <h3 class="Gou21b">Address</h3>
+
+                <div data-field="address"><a class="PDvGL q8cvFf"
+                        href="https://www.google.com/maps/dir//BreakCup+Cafe/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2e9e0114ee6d7:0x5c981ed859796b29!2m2!1d73.9560425!2d18.4841954"
+                        target="_blank" data-tracking-element-type="6" jslog="56039; track:impression,click">Get
+                        directions</a>
+                    <address class="qhkvMe " itemprop="address">
+                        <div>Fursungi Bhekrai Rd,</div>
+                        <div>Trimurti Vihar, Pune,</div>
+                        <div>Pune, Maharashtra 412308</div>
+                        <div>India</div>
+                    </address>
+                </div>
+            </div><!-- /.col-md-3 -->
+            <div class="col-md-3 mb-5 mb-md-0 kCmrbf">
+                <h3 class="Gou21b">Business Hours</h3>
+                <div>
+                    <table itemprop="openingHours">
+                        <tbody>
+                            <tr>
+                                <th class="x2TOCf">Daily:</th>
+                                <td class="o0m3Qb"><span class="WF8WNe">11:00 AM&thinsp;–&thinsp;10:30 PM</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div><!-- /.col-md-2 -->
+        </div>
+    </div>
+    <footer class="container">
+        <p>© 2023-2024 BreakCup Cafe. <a href="#">Back to top</a></p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
